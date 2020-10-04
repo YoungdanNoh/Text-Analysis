@@ -8,21 +8,24 @@ Version of this program
 ------------------------
 
 * tf.__version__
->> 1.13.1
+
+  1.13.1
   
 * import numpy
 * numpy.version.version
->> 1.16.1
+
+  1.16.1
   
 * keras.__version__
->> 2.3.1
+
+  2.3.1
 
 * pip install tensorflow-gpu==2.0
 
 주의사항
 ------
-* BiLSTM층 추가 시 
+> BiLSTM층 추가 시 
 >> model.add(Bidirectional(LSTM(60, return_sequences=True)))
 
-* RNN층 추가 시
+> RNN층 추가 시
 >> model.add(SimpleRNN(60, return_sequences=True))

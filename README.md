@@ -12,7 +12,8 @@ Version of this program
   1.13.1
   
 * import numpy
-* numpy.version.version
+
+  numpy.version.version
 
   1.16.1
   
